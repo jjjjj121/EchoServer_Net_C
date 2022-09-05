@@ -25,7 +25,7 @@ int main()
 		exit(-1);
 	}
 
-	char Message[] = "그...그만";
+	char Message[] = "세번째 메세지3333333";
 	send(ServerSocket, Message, strlen(Message), 0);
 	char MessageRev[1024] = { 0, };
 	int RevLenght = recv(ServerSocket, MessageRev, sizeof(MessageRev), 0);
